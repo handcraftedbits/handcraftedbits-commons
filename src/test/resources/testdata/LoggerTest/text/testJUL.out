@@ -1,0 +1,8 @@
+TRACE | main                 | c.h.c.api.log.LoggerTest  | finest from JUL 
+TRACE | main                 | c.h.c.api.log.LoggerTest  | finest from JUL with MDC | key1=value1, key2=value2
+DEBUG | main                 | c.h.c.api.log.LoggerTest  | finer from JUL 
+DEBUG | main                 | c.h.c.api.log.LoggerTest  | finer from JUL with MDC | key1=value1, key2=value2
+DEBUG | main                 | c.h.c.api.log.LoggerTest  | fine from JUL 
+DEBUG | main                 | c.h.c.api.log.LoggerTest  | fine from JUL with MDC | key1=value1, key2=value2
+INFO  | main                 | c.h.c.api.log.LoggerTest  | info from JUL 
+INFO  | main                 | c.h.c.api.log.LoggerTest  | info from JUL with MDC | key1=value1, key2=value2

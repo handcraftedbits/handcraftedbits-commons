@@ -1,0 +1,4 @@
+{"@version":"1","message":"warn from Log4j","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"WARN","level_value":30000}
+{"@version":"1","message":"warn from Log4j with MDC","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"WARN","level_value":30000,"key1":"value1","key2":"value2"}
+{"@version":"1","message":"error from Log4j","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"ERROR","level_value":40000}
+{"@version":"1","message":"error from Log4j with MDC","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"ERROR","level_value":40000,"key1":"value1","key2":"value2"}

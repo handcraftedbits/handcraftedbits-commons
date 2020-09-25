@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2020 HandcraftedBits
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>com.handcraftedbits</groupId>
+  <artifactId>handcraftedbits-commons</artifactId>
+  <packaging>jar</packaging>
+  <name>handcraftedbits-commons</name>
+  <description>Common code for HandcraftedBits projects</description>
+  <url>https://github.com/handcraftedbits/handcraftedbits-commons</url>
+  <version>1.0.1-SNAPSHOT</version>
+  <inceptionYear>2020</inceptionYear>
+
+  <parent>
+    <groupId>com.handcraftedbits</groupId>
+    <artifactId>handcraftedbits-parent-java</artifactId>
+    <version>1.4.2</version>
+  </parent>
+
+  <properties>
+    <checkstyle.suppressions.location>
+      src/main/codequality/checkstyle-suppressions.xml
+    </checkstyle.suppressions.location>
+    
+    <version.dep.commons-io>2.8.0</version.dep.commons-io>
+    <version.dep.logstash>6.4</version.dep.logstash>
+  </properties>
+
+  <scm>
+    <url>https://github.com/handcraftedbits/handcraftedbits-commons</url>
+    <connection>scm:git:git://github.com/handcraftedbits/handcraftedbits-commons.git</connection>
+    <developerConnection>scm:git:git@github.com:handcraftedbits/handcraftedbits-commons.git</developerConnection>
+  </scm>
+  <issueManagement>
+    <url>https://github.com/handcraftedbits/handcraftedbits-commons/issues</url>
+    <system>GitHub Issues</system>
+  </issueManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>${version.dep.commons-io}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.logstash.logback</groupId>
+      <artifactId>logstash-logback-encoder</artifactId>
+      <version>${version.dep.logstash}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
+      <version>${version.dep.junit}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>jcl-over-slf4j</artifactId>
+      <version>${version.dep.slf4j}</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>jul-to-slf4j</artifactId>
+      <version>${version.dep.slf4j}</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>log4j-over-slf4j</artifactId>
+      <version>${version.dep.slf4j}</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+    </dependency>
+  </dependencies>
+</project>

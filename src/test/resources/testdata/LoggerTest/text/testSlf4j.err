@@ -1,0 +1,4 @@
+WARN  | main                 | c.h.c.api.log.LoggerTest  | warn from Slf4j 
+WARN  | main                 | c.h.c.api.log.LoggerTest  | warn from Slf4j with MDC | key1=value1, key2=value2
+ERROR | main                 | c.h.c.api.log.LoggerTest  | error from Slf4j 
+ERROR | main                 | c.h.c.api.log.LoggerTest  | error from Slf4j with MDC | key1=value1, key2=value2

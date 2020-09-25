@@ -1,0 +1,6 @@
+{"@version":"1","message":"trace from Log4j","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"TRACE","level_value":5000}
+{"@version":"1","message":"trace from Log4j with MDC","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"TRACE","level_value":5000,"key1":"value1","key2":"value2"}
+{"@version":"1","message":"debug from Log4j","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"DEBUG","level_value":10000}
+{"@version":"1","message":"debug from Log4j with MDC","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"DEBUG","level_value":10000,"key1":"value1","key2":"value2"}
+{"@version":"1","message":"info from Log4j","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"INFO","level_value":20000}
+{"@version":"1","message":"info from Log4j with MDC","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"INFO","level_value":20000,"key1":"value1","key2":"value2"}

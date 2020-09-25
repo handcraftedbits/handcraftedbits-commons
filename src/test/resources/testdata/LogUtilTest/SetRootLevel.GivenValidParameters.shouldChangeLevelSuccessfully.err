@@ -1,0 +1,4 @@
+ERROR | main                 | c.h.c.a.l.LogUtilTest$SetRootLevel$GivenValidParameters | error 
+WARN  | main                 | c.h.c.a.l.LogUtilTest$SetRootLevel$GivenValidParameters | warn 
+ERROR | main                 | c.h.c.a.l.LogUtilTest$SetRootLevel$GivenValidParameters | error 
+WARN  | main                 | c.h.c.a.l.LogUtilTest$SetRootLevel$GivenValidParameters | warn 

@@ -1,0 +1,8 @@
+{"@version":"1","message":"finest from JUL","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"TRACE","level_value":5000}
+{"@version":"1","message":"finest from JUL with MDC","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"TRACE","level_value":5000,"key1":"value1","key2":"value2"}
+{"@version":"1","message":"finer from JUL","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"DEBUG","level_value":10000}
+{"@version":"1","message":"finer from JUL with MDC","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"DEBUG","level_value":10000,"key1":"value1","key2":"value2"}
+{"@version":"1","message":"fine from JUL","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"DEBUG","level_value":10000}
+{"@version":"1","message":"fine from JUL with MDC","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"DEBUG","level_value":10000,"key1":"value1","key2":"value2"}
+{"@version":"1","message":"info from JUL","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"INFO","level_value":20000}
+{"@version":"1","message":"info from JUL with MDC","logger_name":"com.handcraftedbits.commons.api.log.LoggerTest","thread_name":"main","level":"INFO","level_value":20000,"key1":"value1","key2":"value2"}

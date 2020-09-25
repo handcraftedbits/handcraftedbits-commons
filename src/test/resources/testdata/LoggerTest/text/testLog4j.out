@@ -1,0 +1,6 @@
+TRACE | main                 | c.h.c.api.log.LoggerTest  | trace from Log4j 
+TRACE | main                 | c.h.c.api.log.LoggerTest  | trace from Log4j with MDC | key1=value1, key2=value2
+DEBUG | main                 | c.h.c.api.log.LoggerTest  | debug from Log4j 
+DEBUG | main                 | c.h.c.api.log.LoggerTest  | debug from Log4j with MDC | key1=value1, key2=value2
+INFO  | main                 | c.h.c.api.log.LoggerTest  | info from Log4j 
+INFO  | main                 | c.h.c.api.log.LoggerTest  | info from Log4j with MDC | key1=value1, key2=value2

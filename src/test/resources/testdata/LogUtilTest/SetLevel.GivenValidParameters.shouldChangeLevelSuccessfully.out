@@ -1,0 +1,3 @@
+TRACE | main                 | c.h.c.a.l.LogUtilTest$SetLevel$GivenValidParameters | trace 
+DEBUG | main                 | c.h.c.a.l.LogUtilTest$SetLevel$GivenValidParameters | debug 
+INFO  | main                 | c.h.c.a.l.LogUtilTest$SetLevel$GivenValidParameters | info 

@@ -1,0 +1,6 @@
+TRACE | main                 | c.h.c.api.log.LoggerTest  | trace from JCL 
+TRACE | main                 | c.h.c.api.log.LoggerTest  | trace from JCL with MDC | key1=value1, key2=value2
+DEBUG | main                 | c.h.c.api.log.LoggerTest  | debug from JCL 
+DEBUG | main                 | c.h.c.api.log.LoggerTest  | debug from JCL with MDC | key1=value1, key2=value2
+INFO  | main                 | c.h.c.api.log.LoggerTest  | info from JCL 
+INFO  | main                 | c.h.c.api.log.LoggerTest  | info from JCL with MDC | key1=value1, key2=value2

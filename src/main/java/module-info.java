@@ -1,0 +1,32 @@
+/**
+ * Copyright (C) 2020 HandcraftedBits
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *         http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
+ * This module contains HandcraftedBits common code.
+ */
+
+module com.handcraftedbits.commons {
+     requires ch.qos.logback.classic;
+     requires ch.qos.logback.core;
+     requires java.logging;
+     requires jul.to.slf4j;
+     requires static lombok;
+     requires transitive org.slf4j;
+
+     exports com.handcraftedbits.commons.api.exception;
+     exports com.handcraftedbits.commons.api.log;
+     exports com.handcraftedbits.commons.api.resource;
+}

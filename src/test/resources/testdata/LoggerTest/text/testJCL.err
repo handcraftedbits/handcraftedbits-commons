@@ -1,0 +1,4 @@
+WARN  | main                 | c.h.c.api.log.LoggerTest  | warn from JCL 
+WARN  | main                 | c.h.c.api.log.LoggerTest  | warn from JCL with MDC | key1=value1, key2=value2
+ERROR | main                 | c.h.c.api.log.LoggerTest  | error from JCL 
+ERROR | main                 | c.h.c.api.log.LoggerTest  | error from JCL with MDC | key1=value1, key2=value2

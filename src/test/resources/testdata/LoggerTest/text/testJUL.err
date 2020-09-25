@@ -1,0 +1,4 @@
+WARN  | main                 | c.h.c.api.log.LoggerTest  | warning from JUL 
+WARN  | main                 | c.h.c.api.log.LoggerTest  | warning from JUL with MDC | key1=value1, key2=value2
+ERROR | main                 | c.h.c.api.log.LoggerTest  | severe from JUL 
+ERROR | main                 | c.h.c.api.log.LoggerTest  | severe from JUL with MDC | key1=value1, key2=value2
