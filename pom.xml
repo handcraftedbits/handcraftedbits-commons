@@ -24,7 +24,7 @@
   <name>handcraftedbits-commons</name>
   <description>Common code for HandcraftedBits projects</description>
   <url>https://github.com/handcraftedbits/handcraftedbits-commons</url>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <inceptionYear>2020</inceptionYear>
 
   <parent>
